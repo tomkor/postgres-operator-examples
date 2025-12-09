@@ -4,7 +4,7 @@ metadata:
   name: rhino
 spec:
   users:
-    - username: rhino@example.com
+    - username: devtomb@gmail.com
       role: Administrator
       passwordRef:
         name: pgadmin-password-secret
