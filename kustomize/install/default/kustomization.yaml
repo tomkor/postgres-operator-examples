@@ -13,6 +13,11 @@ labels:
   pairs:
     postgres-operator.crunchydata.com/control-plane: postgres-operator
 
+images:
+- name: postgres-operator
+  newName: registry.developers.crunchydata.com/crunchydata/postgres-operator
+  newTag: ubi9-5.8.5-0
+
 resources:
 - ../crd
 - ../rbac/cluster
